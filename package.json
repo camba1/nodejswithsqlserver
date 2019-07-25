@@ -1,0 +1,16 @@
+{
+  "name": "NodeWithSQLServer",
+  "version": "0.0.1",
+  "description": "Playing with node and Sql Server",
+  "main": "./src/index.js",
+  "author": "Juan Peredo Bolbeck LLC <jperedo@Bolbeck.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "tedious": "^6.2.0",
+    "async": "^3.1.0",
+    "express": "^4.17.1"
+  }
+}

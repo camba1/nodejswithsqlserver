@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  nodeforsqlserver:
+    build: .
+    container_name: mynode
+    command: nodemon -L
+    volumes: 
+      - .:/code
+    ports:
+      - "8000:8000"
+      - "5858:5858"
+      - "3000:3000"
